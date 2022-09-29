@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.xeber-box{
+.news-box{
     display: flex; 
     height: 500px;
     width: 95%;
@@ -16,7 +16,7 @@
     
 }
 
-.xeber-item{
+.news-item{
     border: solid 2px darkgray;
     height: 350px;
     width: 30%;
@@ -52,3 +52,27 @@ h3{
     width: 33%;
     padding-left: 5px;
 }
+
+.day{
+    background-color: rgba(0, 255, 255, 0.415);
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 7;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.time{
+    background-color: rgba(24, 24, 24, 0.415);
+    height: 20px;
+    width: 60px;
+    position: static;
+    z-index: 6;
+    color: green;
+    display: flex;
+    justify-content: center;
+    top: 60px;
+}
+
