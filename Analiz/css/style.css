@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+#navbar{
+    padding: 15px 0px;
+    border: solid 1px yellow;
+    background-image: url(https://cdn.oxu.az/assets/header_bg-16b933a63f94b28290d368006e6a4901530e656b79339c9ed6de9321eb73a30a.png);
+}
+
+#news
+
+.news-item{
+    border: solid 1px #ddd;
+    margin: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+.news-item-headline h1{
+    padding: 0 5px;
+    font-family: pf_din_text_cond_promedium,Arial,sans-serif;
+}
