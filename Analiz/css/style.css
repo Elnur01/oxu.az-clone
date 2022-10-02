@@ -1,22 +1,31 @@
 body{
     margin: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Anek Latin', sans-serif;
     box-sizing: border-box;
 }
 
-
+.news-item:hover {
+    box-shadow: 5px 2px #888888;
+}
 
 #navbar{
     padding: 15px 0px;
     border: solid 1px yellow;
     background-image: url(https://cdn.oxu.az/assets/header_bg-16b933a63f94b28290d368006e6a4901530e656b79339c9ed6de9321eb73a30a.png);
+    position: fixed;
+    width: 100%;
+    z-index: 4;
 }
 
-#news
+#news{
+    position: relative;
+}
 
 .news-item{
     border: solid 1px #ddd;
     margin: 15px;
+    position: relative;
+
 }
 
 img{
@@ -24,6 +33,53 @@ img{
 }
 
 .news-item-headline h1{
-    padding: 0 5px;
-    font-family: pf_din_text_cond_promedium,Arial,sans-serif;
+    margin: 0px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.news-item-share{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+.news-item-share span{
+    width: 33.333%;
+    text-align: center;
+    padding: 15px 0px;
+    background: rgb(239, 239, 239);
+    color: rgb(123, 123, 123);
+    border-right: 1px solid;
+}
+
+.news-item-share i{
+    margin-right: 10px;
+    
+}
+
+.news-item-share span:last-child{
+    border-right: none;
+}
+
+.news-item-date{
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.news-item-date span{
+    text-align: center;
+    color: white;
+}
+
+.news-item-date span:first-child {
+    background: #1895a0ac;
+    padding: 20px 0px;
+}
+
+.news-item-date span:last-child {
+    background: #334564;
+    padding: 5px 0px;
 }
